@@ -457,7 +457,7 @@ class SentenceTransformer(nn.Sequential):
             scheduler: str = 'warmuplinear',
             warmup_steps: int = 10000,
             optimizer_class: Type[Optimizer] = transformers.AdamW,
-            optimizer_params : Dict[str, object]= {'lr': 5e-6, 'eps': 1e-6, 'correct_bias': False},
+            optimizer_params : Dict[str, object]= {'lr': 2e-6, 'eps': 1e-6, 'correct_bias': False},
             weight_decay: float = 0.01,
             evaluation_steps: int = 0,
             output_path: str = None,
