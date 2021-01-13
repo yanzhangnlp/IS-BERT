@@ -1,7 +1,7 @@
 ## Install first
 
 ````
-pip install -e .
+pip3 install -e .
 ```` 
 
 ## Training
