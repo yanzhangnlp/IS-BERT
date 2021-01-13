@@ -3,12 +3,6 @@ The system trains BERT (or any other transformer model like RoBERTa, DistilBERT 
 with softmax loss function. At every 1000 training steps, the model is evaluated on the
 STS benchmark dataset
 
-Usage:
-python training_nli.py
-
-OR
-python training_nli.py pretrained_transformer_model_name
-"""
 from torch.utils.data import DataLoader
 import math
 from sentence_transformers import models, losses
